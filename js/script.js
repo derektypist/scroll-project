@@ -31,5 +31,7 @@ navToggle.addEventListener("click", function() {
 });
 
 // Fixed Navbar
-
+window.addEventListener("scroll", function() {
+    // Code goes here
+});
 
