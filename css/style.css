@@ -9,3 +9,28 @@ body {
     padding-bottom: 5rem;
 }
 
+/* Scroll */
+
+/* Navbar */
+nav {
+    background: white;
+    padding: 1rem 1.5rem;
+}
+
+/* Fixed Nav */
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.fixed-nav .links a {
+    color: hsl(209,61%,16%);
+}
+
+.fixed-nav .links a:hover {
+    color: hsla(182, 63%, 54%);
+}
