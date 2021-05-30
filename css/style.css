@@ -84,4 +84,8 @@ nav {
     color: hsl(209,61%,16%);
 }
 
-
+/* Image */
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(63,208,212,0.5),rgba(0,0,0,0.7)),url(recreation.JPG) center/cover no-repeat;
+}
