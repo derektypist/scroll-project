@@ -65,11 +65,20 @@ scrollLinks.forEach(function(link) {
         const fixedNav = navbar.classList.contains("fixed-nav");
         let position = element.offsetTop - navHeight;
 
+        if (!fixedNav) {
+            position -= navHeight;
+        }
+
+        if (navHeight > 82) {
+            position += containerHeight;
+        }
+
         window.scrollTo({
             left: 0,
             top: position,
         });
 
+        linksContainer.style.height = 0;
 
     });
 });
