@@ -149,7 +149,7 @@ nav {
     }
 
     .links a:hover {
-        color: white;
+        color: hsl(210, 22%, 49%);
     }
 }
 
