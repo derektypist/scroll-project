@@ -114,3 +114,68 @@ header {
     }
 }
 
+/* Sections and Title */
+.title h2 {
+    text-align: h2;
+    text-transform: uppercase;
+}
+
+.title span {
+    color: hsla(182, 63%, 54%);
+}
+
+#about, #services, #tours {
+    height: 80vh;
+}
+
+#services {
+    background: white;
+}
+
+footer {
+    background: hsla(182, 63%, 54%);
+    padding: 5rem 1rem;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.top-link {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background: hsla(182, 63%, 54%);
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 0.5rem;
+    color: white;
+    animation: bounce 2s ease-in-out infinite;
+    visibility: hidden;
+    z-index: -100;
+}
+
+.show-link {
+    visibility: visible;
+    z-index: 100;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
