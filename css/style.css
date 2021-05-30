@@ -5,6 +5,14 @@ body {
     background: hsl(210, 36%, 96%);
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .section {
     padding-bottom: 5rem;
 }
@@ -34,3 +42,4 @@ nav {
 .fixed-nav .links a:hover {
     color: hsla(182, 63%, 54%);
 }
+
