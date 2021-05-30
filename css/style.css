@@ -66,3 +66,22 @@ nav {
     overflow: hidden;
 }
 
+.show-links {
+    height: 200px;
+}
+
+.links a {
+    background: white;
+    color: hsl(210, 22%, 49%);
+    font-size: 1.1.rem;
+    text-transform: capitalize;
+    display: block;
+    font-weight: bold;
+    padding: 0.75rem 0;
+}
+
+.links a:hover {
+    color: hsl(209,61%,16%);
+}
+
+
