@@ -120,6 +120,37 @@ nav {
         align-items: center;
         justify-content: space-between;
     }
+
+    .nav-header {
+        padding: 0;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .links-container {
+        height: auto !important;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .links a {
+        background: transparent;
+        color: white;
+        font-size: 1.1rem;
+        text-transform: capitalize;
+        display: block;
+        margin: 0 1rem;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .links a:hover {
+        color: white;
+    }
 }
 
 header {
