@@ -43,8 +43,12 @@ window.addEventListener("scroll", function() {
         navbar.classList.remove("fixed-nav");
     }
 
+    // Set Up Back to Top Link
     if (scrollHeight > 500) {
+        console.log("hello");
         topLink.classList.add("show-link");
+    } else {
+        topLink.classList.remove("show-link");
     }
 });
 
