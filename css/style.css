@@ -84,8 +84,33 @@ nav {
     color: hsl(209,61%,16%);
 }
 
-/* Image */
 header {
     min-height: 100vh;
     background: linear-gradient(rgba(63,208,212,0.5),rgba(0,0,0,0.7)) center/cover no-repeat;
 }
+
+.banner {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.container h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.container p {
+    color: white;
+    max-width: 25rem;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container p {
+        max-width: 40rem;
+    }
+}
+
