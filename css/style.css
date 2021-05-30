@@ -233,7 +233,7 @@ footer p {
     display: grid;
     place-items: center;
     border-radius: 0.5rem;
-    color: white;
+    color: green;
     animation: bounce 2s ease-in-out infinite;
     visibility: hidden;
     z-index: -100;
