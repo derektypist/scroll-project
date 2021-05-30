@@ -1,4 +1,8 @@
 /* Global Styles and Classes */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", Arial, Verdana, sans-serif;
     color: hsl(209,61%,16%);
