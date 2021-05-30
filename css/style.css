@@ -43,3 +43,26 @@ nav {
     color: hsla(182, 63%, 54%);
 }
 
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-toggle {
+    font-size: 1.5rem;
+    color: hsl(209,61%,16%);
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.nav-toggle:hover {
+    color: hsla(182, 63%, 54%);
+}
+
+.links-container {
+    height: 0;
+    overflow: hidden;
+}
+
