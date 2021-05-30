@@ -55,8 +55,8 @@ window.addEventListener("scroll", function() {
 // Smooth Scroll
 // Select Links
 const scrollLinks = document.querySelectorAll('.scroll-link');
-scrollLinks.forEach(function(link) {
-    link.addEventListener("click",function(e) {
+scrollLinks.forEach((link) => {
+    link.addEventListener("click",(e) => {
         // Prevent Default
         e.preventDefault();
         // Navigate to Specific Spot
@@ -70,11 +70,11 @@ scrollLinks.forEach(function(link) {
         let position = element.offsetTop - navHeight;
 
         if (!fixedNav) {
-            position -= navHeight;
+            position = position - navHeight;
         }
 
         if (navHeight > 82) {
-            position += containerHeight;
+            position = position + containerHeight;
         }
 
         window.scrollTo({
