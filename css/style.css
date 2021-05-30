@@ -35,6 +35,11 @@ a {
     background: black;
 }
 
+.btn:hover {
+    background: white;
+    color: hsla(182, 63%, 54%);
+}
+
 /* Scroll */
 
 /* Navbar */
